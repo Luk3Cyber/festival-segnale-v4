@@ -324,3 +324,43 @@ button:focus {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* Messaggi di stato e riquadro meteo. */
+.status-message {
+  color: #46564b;
+  font-weight: bold;
+}
+
+.weather-box {
+  max-width: 36rem;
+  margin-top: 1rem;
+  padding: 1.25rem;
+  border: 1px solid #b7c0b7;
+  border-radius: 0.75rem;
+  background: #ffffff;
+}
+
+.weather-data {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: 1rem;
+  margin: 0;
+}
+
+.weather-data dt {
+  color: #46564b;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.weather-data dd {
+  margin: 0.25rem 0 0;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.weather-source {
+  margin-top: 0.75rem;
+  color: #46564b;
+  font-size: 0.875rem;
+}
